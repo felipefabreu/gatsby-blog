@@ -3,5 +3,5 @@ module.exports = {
     title: 'My first blog',
     siteUrl: `https://www.yourdomain.tld`,
   },
-  plugins: [],
+  plugins: [`gatsby-plugin-styled-components`],
 };
