@@ -31,7 +31,7 @@ const Layout = ({ pageTitle, children }) => {
   return (
     <>
       <Header>
-        <h1>ADALBERTO BOTELHO ASSUMA MEU FILHO</h1>
+        <h1>bebezin</h1>
       </Header>
       <Content>
         <img src="https://t.ctcdn.com.br/l_4EIHeXGXeZ1E1Glfjn3uY3SLc=/i372972.gif"></img>
