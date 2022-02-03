@@ -1,5 +1,19 @@
 import * as React from 'react';
+import styled from 'styled-components';
+
 import { graphql, useStaticQuery } from 'gatsby';
+
+const Header = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;
+
+const Content = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;
 
 const Layout = ({ pageTitle, children }) => {
   const data = useStaticQuery(graphql`
@@ -16,16 +30,12 @@ const Layout = ({ pageTitle, children }) => {
 
   return (
     <>
-      <h1>{data.site.siteMetadata.title}</h1>
-      <p>
-        Do sit nostrud quis amet eu ut qui. Duis labore quis cupidatat
-        consectetur irure. Quis aute occaecat ex et excepteur voluptate cillum
-        minim id mollit. Consectetur ullamco cillum enim excepteur do pariatur
-        aliqua consequat duis. Laboris nostrud est ipsum do laborum.
-        Exercitation consequat laboris do cupidatat in aliquip ut laborum
-        excepteur. Nulla ex magna cillum sit exercitation deserunt eiusmod
-        adipisicing laborum laborum et.
-      </p>
+      <Header>
+        <h1>ADALBERTO BOTELHO ASSUMA MEU FILHO</h1>
+      </Header>
+      <Content>
+        <img src="https://t.ctcdn.com.br/l_4EIHeXGXeZ1E1Glfjn3uY3SLc=/i372972.gif"></img>
+      </Content>
     </>
   );
 };
